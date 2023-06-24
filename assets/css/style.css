@@ -11,13 +11,14 @@ body {
 .name {
     outline: red dashed 1px;
     text-align: center;
+    padding: 25px;
     font-size: 100px;
 }
 
 nav ul {
     outline: red dashed 1px;
     text-align: center;
-    justify-content: space-between;
+    padding: 25px;
     list-style-type: none;
 }
 
