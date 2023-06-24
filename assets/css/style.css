@@ -1,0 +1,49 @@
+* {
+    background-color: #feeae9;
+    color: #ce676a;
+}
+
+body {
+    outline: black dashed 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    outline: red dashed 1px;
+    text-align: center;
+    font-size: 100px;
+}
+
+nav ul {
+    outline: red dashed 1px;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    outline: red dashed 1px;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 25px;
+}
+
+.profile img {
+    outline: red dashed 1px;
+}
+
+.about {
+    outline: red dashed 1px;
+}
+
+.projects {
+    outline: red dashed 1px;
+}
+
+.contact {
+    outline: red dashed 1px;
+}
+
+.footer {
+    outline: red dashed 1px;
+}
