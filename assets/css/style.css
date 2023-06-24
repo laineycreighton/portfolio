@@ -4,60 +4,67 @@
 }
 
 body {
-    outline: black dashed 1px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 1000vh;
 }
 
 .name {
-    outline: red dashed 1px;
+    outline: green dashed 2px;
     position: relative;
-    margin-top: 50px;
-    padding: 25px;
+    margin-top: 0;
+    padding: 75px;
     text-align: center;
     font-size: 150px;
 }
 
+nav {
+    position: relative;
+    margin: 0;
+    border: 0;
+}
+
 nav ul {
-    outline: red dashed 1px;
+    outline: red dashed 2px;
     list-style-type: none;
-    display: flex;
-    align-items: center;
+}
+
+nav ul img {
+    width: 5%;
+    height: 5%;
 }
 
 nav ul li {
-    outline: red dashed 1px;
+    outline: blue dashed 2px;
     font-family: Consolas, Menlo, "courier new", monospace;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .profile img {
-    outline: red dashed 1px;
     width: 30%;
     height: 30%;
     margin: auto;
     padding: 1rem;
     position: relative;
     border-radius: 10%;
-    border: 25px;
-    background: linear-gradient(to right, aqua, aquamarine, teal);
-    display:flex;
+    border: 20px;
+    /* aqua, aquamarine, teal -or- orange, hotpink, #aa336a*/
+    background: linear-gradient(to right, #aa336a, hotpink, orange);
+    display: flex;
     align-content: center;
     justify-content: center;
-  }
+}
 
 h2 {
-    outline: blue dashed 1px;
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
     padding: 0%;
     border: 0%;
     margin: 0%;
 }
 
 h3 {
-    outline: green dashed 1px;
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
     -webkit-text-stroke: 2px #ce676a;
     -webkit-text-fill-color: #feeae9;
     transform: skew(30deg);
@@ -66,10 +73,22 @@ h3 {
     margin: 0%;
 }
 
-.prework img {
-    outline: red dashed 10px;
+h4 {
+    font-size: 30px;
+}
+
+.study-guide{
+box-shadow: 4px 8px 8px 2px #ce676a;
+border-radius: 25px;
+}
+
+.study-guide img {
+    width: 5%;
+    height: 5%;
+    border-radius: 5%;
+    border: 10px;
 }
 
 .footer {
-    outline: red dashed 1px;
+    font-size: large;
 }
