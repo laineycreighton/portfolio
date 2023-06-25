@@ -1,13 +1,15 @@
+/* universal selector - applies to entire page*/
 * {
     background-color: #feeae9;
     color: #ce676a;
 }
 
+/* tag selector - applies to entire body element*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 1000vh;
 }
 
+/* class selector - applies to all elements with class of "name"*/
 .name {
     position: relative;
     margin-top: 0;
@@ -16,6 +18,8 @@ body {
     font-size: 150px;
 }
 
+/* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "menu"*/
+/* this section gives css to the link color for the nav bar*/
 .menu a:link {
     color: #ce676a;
     text-decoration: none;
@@ -40,6 +44,7 @@ body {
     text-decoration: none;
 }
 
+/* tag selector - applies to entire nav element*/
 nav {
     float: none;
     position: absolute;
@@ -49,6 +54,7 @@ nav {
     padding: 0px;
 }
 
+/* multiple tag selector - applies to the ul element within the nav element */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -56,11 +62,13 @@ nav ul {
     margin: auto;
 }
 
+/* multiple tag selector - applies to the image tag <img> within the ul element within the nav element */
 nav ul img {
     width: 5%;
     height: 5%;
 }
 
+/* multiple tag selector - applies to the list item tag <li> within the ul element within the nav element */
 nav ul li {
     outline: #ce676a solid 2px;
     font-family: Consolas, Menlo, "courier new", monospace;
@@ -71,10 +79,12 @@ nav ul li {
     width: fit-content;
 }
 
+/* class selector - applies to all elements with class of "profile"*/
 .profile {
     margin: 200px;
 }
 
+/* class and tag selector - applies to all elements with the image (<img>) tag within the element with class of "profile"*/
 .profile img {
     width: 30%;
     height: 30%;
@@ -84,17 +94,19 @@ nav ul li {
     position: relative;
     border-radius: 10%;
     border: 20px;
-    /* aqua, aquamarine, teal -or- orange, hotpink, #aa336a*/
+    /* other color options: aqua, aquamarine, teal -or- orange, hotpink, #aa336a*/
     background: linear-gradient(to right, #aa336a, hotpink, orange);
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
+/* class selector - applies to all elements with class of "main"*/
 .main {
     padding: 50px;
 }
 
+/* tag selector - applies to all h2 tags*/
 h2 {
     text-align: center;
     font-size: 100px;
@@ -103,6 +115,7 @@ h2 {
     margin: 0%;
 }
 
+/* tag selector - applies to all h3 tags*/
 h3 {
     text-align: center;
     font-size: 100px;
@@ -114,6 +127,7 @@ h3 {
     margin: 0%;
 }
 
+/* tag selector - applies to all h4 tags*/
 h4 {
     font-size: 75px;
     text-align: center;
@@ -121,11 +135,13 @@ h4 {
     padding: 0;
 }
 
+/* class selector - applies to all elements with class of "card"*/
 .card {
     display: flex;
     line-height: 1.5;
 }
 
+/* class and tag selector - applies to all elements with the article (<article>) tag within the element with class of "card"*/
 .card article {
     margin: 3rem;
     box-shadow: 4px 8px 8px 2px #ce676a;
@@ -133,6 +149,7 @@ h4 {
     flex: 1 0 175px
 }
 
+/* class and tag selector - applies to all image (<img>) tags within the element with class of "card"*/
 .card img {
     width: 50%;
     height: 50%;
@@ -146,6 +163,8 @@ h4 {
     width: 50%
 }
 
+/* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "project-link"*/
+/* this section gives css to the link color for the project links*/
 .project-link a:link {
     color: #ce676a;
     text-decoration: none;
@@ -170,6 +189,7 @@ h4 {
     text-decoration: none;
 }
 
+/* class selector - applies to all elements with class of "project-link"*/
 .project-link {
     list-style-type: none;
     font-size: 30px;
@@ -181,12 +201,14 @@ h4 {
     justify-content: space-around;
 }
 
+/* class and tag selector - applies to all list item (<li>) tags within the element with class of "project-link"*/
 .project-link li {
     outline: #ce676a solid 2px;
     border-radius: 5px;
     line-height: normal;
 }
 
+/* class selector - applies to all elements with class of "project-text"*/
 .project-text {
     background-color: whitesmoke;
     border-radius: 0 0 25px 25px;
@@ -197,6 +219,7 @@ h4 {
     height: 265px;
 }
 
-.footer {
+/* tag selector - applies to entire footer element*/
+footer {
     font-size: 25px;
 }
