@@ -221,5 +221,9 @@ h4 {
 
 /* tag selector - applies to entire footer element*/
 footer {
-    font-size: 25px;
+    outline: blue dashed 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
