@@ -13,9 +13,9 @@ body {
 h1 {
     position: relative;
     margin-top: 0;
-    padding: 75px;
+    padding: 5rem;
     text-align: center;
-    font-size: 150px;
+    font-size: 10rem;
 }
 
 /* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "menu"*/
@@ -34,8 +34,8 @@ h1 {
     background-color: #ce676a;
     color: #feeae9;
     text-decoration: none;
-    border-radius: 5px;
-    width: auto
+    border-radius: .3rem;
+    width: auto;
 }
 
 .menu a:active {
@@ -47,11 +47,12 @@ h1 {
 /* tag selector - applies to entire nav element*/
 nav {
     float: none;
-    position: absolute;
-    top: 25%;
+    position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0px;
+    padding: 0;
+    line-height: 1.5;
+    width: 100%;
   
 }
 
@@ -73,28 +74,31 @@ nav ul img {
 nav ul li {
     outline: #ce676a solid 2px;
     font-family: Consolas, Menlo, "courier new", monospace;
-    font-size: 35px;
+    font-size: 3rem;
     display: inline;
-    margin-left: 400px;
-    border-radius: 5px;
+    margin-left: 25rem;
+    border-radius: .5rem;
     width: fit-content;
+    line-height: 1.5;
 }
 
 /* class selector - applies to all elements with class of "profile"*/
 .profile {
-    margin: 200px;
+    position: relative;
+    margin: auto;
 }
 
 /* class and tag selector - applies to all elements with the image (<img>) tag within the element with class of "profile"*/
 .profile img {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+    border: 5rem;
     padding: 1rem;
     position: relative;
     border-radius: 10%;
-    border: 20px;
     /* other color options: aqua, aquamarine, teal -or- orange, hotpink, #aa336a*/
     background: linear-gradient(to right, #aa336a, hotpink, orange);
     display: flex;
@@ -104,13 +108,14 @@ nav ul li {
 
 /* class selector - applies to all elements with class of "main"*/
 .main {
-    padding: 50px;
+    outline: red dashed 5px;
+    padding: 2rem;
 }
 
 /* tag selector - applies to all h2 tags*/
 h2 {
     text-align: center;
-    font-size: 100px;
+    font-size: 7rem;
     padding: 0%;
     border: 0%;
     margin: 0%;
@@ -119,7 +124,7 @@ h2 {
 /* tag selector - applies to all h3 tags*/
 h3 {
     text-align: center;
-    font-size: 100px;
+    font-size: 7rem;
     -webkit-text-stroke: 2px #ce676a;
     -webkit-text-fill-color: #feeae9;
     transform: skew(30deg);
@@ -130,9 +135,9 @@ h3 {
 
 /* tag selector - applies to all h4 tags*/
 h4 {
-    font-size: 75px;
+    font-size: 3rem;
     text-align: center;
-    margin: 40px;
+    margin: 2.5rem;
     padding: 0;
 }
 
@@ -169,7 +174,7 @@ h4 {
 
 .cards p {
     outline: orchid dashed 5px;
-    border: 1px solid whitesmoke;
+    border: 2px solid whitesmoke;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -191,7 +196,7 @@ h4 {
     background-color: #ce676a;
     color: #feeae9;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     width: auto;
 }
 
@@ -204,7 +209,7 @@ h4 {
 /* class selector - applies to all elements with class of "project-link"*/
 .project-link {
     list-style-type: none;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     width: auto;
     height: auto;
@@ -216,7 +221,7 @@ h4 {
 /* class and tag selector - applies to all list item (<li>) tags within the element with class of "project-link"*/
 .project-link li {
     outline: #ce676a solid 2px;
-    border-radius: 5px;
+    border-radius: .3rem;
     line-height: normal;
 }
 
@@ -224,11 +229,10 @@ h4 {
 .project-text {
     background-color: whitesmoke;
     border-radius: 0 0 25px 25px;
-    font-size: 24px;
+    font-size: 1.5rem;
     box-shadow: 0 0 4px 2px #ce676a;
     margin: auto;
     width: 100%;
-    height: 265px;
 }
 
 .contact header {
@@ -249,7 +253,7 @@ h4 {
     background-color: #ce676a;
     color: #feeae9;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: .3rem;
     width: auto;
 }
 
@@ -260,7 +264,7 @@ h4 {
 }
 
 .contact-links {
-    font-size: 40px;
+    font-size: 2.5rem;
     list-style-type: none;
     padding: 1rem;
     display: flex;
@@ -283,12 +287,12 @@ h4 {
 .email,
 .phone {
     width: auto;
-    height: 75px;
+    height: 5rem;
 }
 
 /* tag selector - applies to entire footer element*/
 footer {
-    font-size: 30px;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
