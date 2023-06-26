@@ -1,12 +1,16 @@
-/* universal selector - applies to entire page*/
-* {
-    background-color: #feeae9;
-    color: #ce676a;
+/* tag selector - applies to entire body element*/
+html {
+    height: 100%;
+    width: 100%;
 }
 
-/* tag selector - applies to entire body element*/
 body {
     font-family: Arial, Helvetica, sans-serif; 
+    background-color: #feeae9;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #ce676a;
 }
 
 /* class selector - applies to all elements with class of "name"*/
@@ -58,9 +62,11 @@ nav {
 
 /* multiple tag selector - applies to the ul element within the nav element */
 nav ul {
+    outline: blue dashed 5px;
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: auto;
 }
 
@@ -152,9 +158,10 @@ h4 {
     outline: green dashed 5px;
     margin: 1rem;
     box-shadow: 4px 8px 8px 2px #ce676a;
-    border-radius: 25px;
+    border-radius: 2.5rem;
     line-height: 1.5;
     max-width: 100%;
+    flex: center;
 }
 
 /* class and tag selector - applies to all image (<img>) tags within the element with class of "card"*/
@@ -178,6 +185,44 @@ h4 {
     margin: auto;
     display: flex;
     justify-content: center;
+    display: none;
+    padding-top: 5rem;
+}
+
+.cards article:hover,
+.cards article:hover,
+.cards article:hover {
+    display: block;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    box-shadow: 4px 8px 8px 2px #ce676a;
+    margin: auto;
+    padding-top: auto;
+}
+
+.cards article:active,
+.cards article:active,
+.cards article:active {
+    display: block;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 0 0 25px 25px;
+    font-size: 1.5rem;
+    box-shadow: 0 0 4px 2px #ce676a;
+    margin: auto;
+}
+
+/* class selector - applies to all elements with class of "project-text"*/
+.project-text {
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 0 0 25px 25px;
+    font-size: 1.5rem;
+    box-shadow: 0 0 4px 2px #ce676a;
+    margin: auto;
+    width: 100%;
 }
 
 /* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "project-link"*/
@@ -223,16 +268,6 @@ h4 {
     outline: #ce676a solid 2px;
     border-radius: .3rem;
     line-height: normal;
-}
-
-/* class selector - applies to all elements with class of "project-text"*/
-.project-text {
-    background-color: whitesmoke;
-    border-radius: 0 0 25px 25px;
-    font-size: 1.5rem;
-    box-shadow: 0 0 4px 2px #ce676a;
-    margin: auto;
-    width: 100%;
 }
 
 .contact header {
