@@ -29,6 +29,7 @@ h1 {
     font-size: 10rem;
 }
 
+/*--------------------NAV LINK COLORS--------------------*/
 .menu a:link {
     color: #ce676a;
     text-decoration: none;
@@ -53,6 +54,7 @@ h1 {
     text-decoration: none;
 }
 
+/*--------------------NAV--------------------*/
 nav {
     float: none;
     position: relative;
@@ -111,12 +113,12 @@ nav ul li {
     justify-content: center;
 }
 
-/*----------------------------------------MAIN----------------------------------------*/
+/*------------------------------------------------------------MAIN------------------------------------------------------------*/
 .main {
     padding: 2rem;
 }
 
-/*--------------------MAIN HEADINGS--------------------*/
+/*----------------------------------------MAIN HEADINGS----------------------------------------*/
 h2 {
     text-align: center;
     font-size: 7rem;
@@ -144,6 +146,11 @@ h4 {
     max-width: 100%;
 }
 
+h5 {
+    font-size: 2rem;
+}
+
+/*--------------------ABOUT & PROJECT TEXT--------------------*/
 .projects p,
 .about p {
     margin-left: 13rem;
@@ -154,11 +161,13 @@ h4 {
     line-height: 1.5;
 }
 
+/*----------------------------------------PROJECT CARDS----------------------------------------*/
 .project-cards {
     display: flex;
     justify-content: space-around;
 }
 
+/*--------------------CARD ONLY--------------------*/
 .study-guide-card,
 .salmon-card,
 .refactor-card {
@@ -170,60 +179,7 @@ h4 {
     display: inline-block;
 }
 
-.study-guide-info,
-.salmon-info,
-.refactor-info {
-    background-color: whitesmoke;
-    color: black;
-    box-shadow: 4px 8px 8px 2px #ce676a;
-    border-radius: 0 0 2.5rem 2.5rem;
-    line-height: 1.5;
-    max-width: 100%;
-    flex: center;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.study-guide-info p,
-.salmon-info p,
-.refactor-info p {
-    margin: 1rem;
-}
-
-.study-guide-info img,
-.salmon-info img,
-.refactor-info img {
-    width: 750px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    border: #ce676a solid 5px;
-}
-
-.icon {
-    box-shadow: 10px 10px 30px 3px #ce676a;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5rem;
-    width: 250px;
-    height: auto;
-    border-radius: 5%;
-    display: block;
-}
-
-.study-guide-card .study-guide-info,
-.salmon-card .salmon-info,
-.refactor-card .refactor-info {
-    display: none;
-}
-
-.study-guide-card:hover .study-guide-info,
-.salmon-card:hover .salmon-info,
-.refactor-card:hover .refactor-info {
-    display: block;
-    background-color: whitesmoke;
-}
-
+/*--------------------CARD LINK COLORS--------------------*/
 .project-link a:link {
     color: #ce676a;
     text-decoration: none;
@@ -265,8 +221,62 @@ h4 {
     line-height: normal;
 }
 
-h6 {
-    font-size: 2rem;
+/*--------------------INFO ONLY--------------------*/
+.study-guide-info,
+.salmon-info,
+.refactor-info {
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 4px 8px 8px 2px #ce676a;
+    border-radius: 0 0 2.5rem 2.5rem;
+    line-height: 1.5;
+    max-width: 100%;
+    flex: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*--------------------INFO TEXT--------------------*/
+.study-guide-info p,
+.salmon-info p,
+.refactor-info p {
+    margin: 1rem;
+}
+
+/*--------------------INFO IMAGES--------------------*/
+.study-guide-info img,
+.salmon-info img,
+.refactor-info img {
+    width: 750px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: #ce676a solid 5px;
+}
+
+.icon {
+    box-shadow: 10px 10px 30px 3px #ce676a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+}
+
+/*--------------------PROJECTS HIDDEN SECTION--------------------*/
+.study-guide-card .study-guide-info,
+.salmon-card .salmon-info,
+.refactor-card .refactor-info {
+    display: none;
+}
+
+.study-guide-card:hover .study-guide-info,
+.salmon-card:hover .salmon-info,
+.refactor-card:hover .refactor-info {
+    display: block;
+    background-color: whitesmoke;
 }
 
 .contact header {
