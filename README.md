@@ -4,7 +4,7 @@
 
 ## Description
 
-
+This is a portfolio to showcase all of my skills, talent, and projects as a software developer student for potential employers. The portfolio was made entirely from scratch by me, the author, and will be updated continuously. Completing this project teaches organization above all. It was best practice to create a wireframe and outline to have a sense of direction before any code was written. There was constant research and testing throughout the entire project. This project was started after attending a coding bootcamp for four days, so there are many improvements to come. 
 
 <br>
 
