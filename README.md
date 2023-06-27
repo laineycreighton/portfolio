@@ -24,6 +24,7 @@
 | Styling a Navigation Bar Using CSS | [https://codetheweb.blog/style-a-navigation-bar-css/](https://codetheweb.blog/style-a-navigation-bar-css/)     |    
 | A Complete Guide to Flexbox   | [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | 
 | Adding Outline to Text Using CSS   | [https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/](https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/) | 
+| CSS Tools: Reset CSS   | [https://meyerweb.com/eric/tools/css/reset/](https://meyerweb.com/eric/tools/css/reset/) | 
 <br>
 
 ## Deployment
