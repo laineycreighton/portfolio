@@ -1,23 +1,26 @@
-/* tag selector - applies to entire body element*/
+/*--------------------HTML--------------------*/
 html {
     height: 100%;
     width: 100%;
 }
 
+/*--------------------BODY--------------------*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #feeae9;
 }
 
+/*--------------------ALL HEADINGS--------------------*/
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     color: #ce676a;
 }
 
-/* class selector - applies to all elements with class of "name"*/
+/*----------------------------------------HEADER----------------------------------------*/
 h1 {
     position: relative;
     margin-top: 0;
@@ -26,8 +29,6 @@ h1 {
     font-size: 10rem;
 }
 
-/* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "menu"*/
-/* this section gives css to the link color for the nav bar*/
 .menu a:link {
     color: #ce676a;
     text-decoration: none;
@@ -52,7 +53,6 @@ h1 {
     text-decoration: none;
 }
 
-/* tag selector - applies to entire nav element*/
 nav {
     float: none;
     position: relative;
@@ -64,7 +64,6 @@ nav {
 
 }
 
-/* multiple tag selector - applies to the ul element within the nav element */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -73,13 +72,11 @@ nav ul {
     margin: auto;
 }
 
-/* multiple tag selector - applies to the image tag <img> within the ul element within the nav element */
 nav ul img {
     width: 5%;
     height: 5%;
 }
 
-/* multiple tag selector - applies to the list item tag <li> within the ul element within the nav element */
 nav ul li {
     outline: #ce676a solid 2px;
     font-family: Consolas, Menlo, "courier new", monospace;
@@ -91,13 +88,12 @@ nav ul li {
     line-height: 1.5;
 }
 
-/* class selector - applies to all elements with class of "profile"*/
+/*----------------------------------------PROFILE----------------------------------------*/
 .profile {
     position: relative;
     margin: auto;
 }
 
-/* class and tag selector - applies to all elements with the image (<img>) tag within the element with class of "profile"*/
 .profile img {
     width: 50%;
     height: auto;
@@ -115,12 +111,12 @@ nav ul li {
     justify-content: center;
 }
 
-/* class selector - applies to all elements with class of "main"*/
+/*----------------------------------------MAIN----------------------------------------*/
 .main {
     padding: 2rem;
 }
 
-/* tag selector - applies to all h2 tags*/
+/*--------------------MAIN HEADINGS--------------------*/
 h2 {
     text-align: center;
     font-size: 7rem;
@@ -129,7 +125,6 @@ h2 {
     margin: 0%;
 }
 
-/* tag selector - applies to all h3 tags*/
 h3 {
     text-align: center;
     font-size: 7rem;
@@ -149,12 +144,21 @@ h4 {
     max-width: 100%;
 }
 
+.projects p,
+.about p {
+    margin-left: 13rem;
+    margin-right: 13rem;
+    font-size: 2rem;
+    color: #ce676a;
+    text-align: center;
+    line-height: 1.5;
+}
+
 .project-cards {
     display: flex;
     justify-content: space-around;
 }
 
-/* class and tag selector - applies to all elements with the article (<article>) tag within the element with class of "card"*/
 .study-guide-card,
 .salmon-card,
 .refactor-card {
@@ -169,7 +173,6 @@ h4 {
 .study-guide-info,
 .salmon-info,
 .refactor-info {
-    outline: red dashed 5px;
     background-color: whitesmoke;
     color: black;
     box-shadow: 4px 8px 8px 2px #ce676a;
@@ -197,7 +200,6 @@ h4 {
     border: #ce676a solid 5px;
 }
 
-/* class and tag selector - applies to all image (<img>) tags within the element with class of "card"*/
 .icon {
     box-shadow: 10px 10px 30px 3px #ce676a;
     margin-left: auto;
@@ -212,7 +214,6 @@ h4 {
 .study-guide-card .study-guide-info,
 .salmon-card .salmon-info,
 .refactor-card .refactor-info {
-    outline: rgb(255, 0, 47) dashed 5px;
     display: none;
 }
 
@@ -223,8 +224,6 @@ h4 {
     background-color: whitesmoke;
 }
 
-/* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "project-link"*/
-/* this section gives css to the link color for the project links*/
 .project-link a:link {
     color: #ce676a;
     text-decoration: none;
@@ -249,7 +248,6 @@ h4 {
     text-decoration: none;
 }
 
-/* class selector - applies to all elements with class of "project-link"*/
 .project-link {
     list-style-type: none;
     font-size: 2rem;
@@ -261,11 +259,14 @@ h4 {
     justify-content: space-around;
 }
 
-/* class and tag selector - applies to all list item (<li>) tags within the element with class of "project-link"*/
 .project-link li {
     outline: #ce676a solid 2px;
     border-radius: .3rem;
     line-height: normal;
+}
+
+h6 {
+    font-size: 2rem;
 }
 
 .contact header {
@@ -323,7 +324,6 @@ h4 {
     height: 5rem;
 }
 
-/* tag selector - applies to entire footer element*/
 footer {
     font-size: 3rem;
     display: flex;
