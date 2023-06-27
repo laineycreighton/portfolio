@@ -5,11 +5,15 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #feeae9;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #ce676a;
 }
 
@@ -57,12 +61,11 @@ nav {
     padding: 0;
     line-height: 1.5;
     width: 100%;
-  
+
 }
 
 /* multiple tag selector - applies to the ul element within the nav element */
 nav ul {
-    outline: blue dashed 5px;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -114,7 +117,6 @@ nav ul li {
 
 /* class selector - applies to all elements with class of "main"*/
 .main {
-    outline: red dashed 5px;
     padding: 2rem;
 }
 
@@ -139,90 +141,86 @@ h3 {
     margin: 0%;
 }
 
-/* tag selector - applies to all h4 tags*/
 h4 {
     font-size: 3rem;
     text-align: center;
     margin: 2.5rem;
     padding: 0;
+    max-width: 100%;
 }
 
-/* class selector - applies to all elements with class of "card"*/
-.cards {
-    outline: blue dashed 5px;
+.project-cards {
     display: flex;
+    justify-content: space-around;
 }
 
 /* class and tag selector - applies to all elements with the article (<article>) tag within the element with class of "card"*/
-.cards article {
-    outline: green dashed 5px;
-    margin: 1rem;
+.study-guide-card,
+.salmon-card,
+.refactor-card {
     box-shadow: 4px 8px 8px 2px #ce676a;
     border-radius: 2.5rem;
     line-height: 1.5;
+    max-width: 33%;
+    width: 800px;
+    display: inline-block;
+}
+
+.study-guide-info,
+.salmon-info,
+.refactor-info {
+    outline: red dashed 5px;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 4px 8px 8px 2px #ce676a;
+    border-radius: 0 0 2.5rem 2.5rem;
+    line-height: 1.5;
     max-width: 100%;
     flex: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.study-guide-info p,
+.salmon-info p,
+.refactor-info p {
+    margin: 1rem;
+}
+
+.study-guide-info img,
+.salmon-info img,
+.refactor-info img {
+    width: 750px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: #ce676a solid 5px;
 }
 
 /* class and tag selector - applies to all image (<img>) tags within the element with class of "card"*/
-.prework-icon,
-.salmon-icon,
-.refactor-icon {
-    outline: red dashed 5px;
+.icon {
     box-shadow: 10px 10px 30px 3px #ce676a;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
-    width: 30%;
+    margin-top: 1.5rem;
+    width: 250px;
     height: auto;
     border-radius: 5%;
     display: block;
 }
 
-.cards p {
-    outline: orchid dashed 5px;
-    border: 2px solid whitesmoke;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+.study-guide-card .study-guide-info,
+.salmon-card .salmon-info,
+.refactor-card .refactor-info {
+    outline: rgb(255, 0, 47) dashed 5px;
     display: none;
-    padding-top: 5rem;
 }
 
-.cards article:hover,
-.cards article:hover,
-.cards article:hover {
+.study-guide-card:hover .study-guide-info,
+.salmon-card:hover .salmon-info,
+.refactor-card:hover .refactor-info {
     display: block;
     background-color: whitesmoke;
-    position: relative;
-    border-radius: 2.5rem;
-    font-size: 1.5rem;
-    box-shadow: 4px 8px 8px 2px #ce676a;
-    margin: auto;
-    padding-top: auto;
-}
-
-.cards article:active,
-.cards article:active,
-.cards article:active {
-    display: block;
-    background-color: whitesmoke;
-    position: relative;
-    border-radius: 0 0 25px 25px;
-    font-size: 1.5rem;
-    box-shadow: 0 0 4px 2px #ce676a;
-    margin: auto;
-}
-
-/* class selector - applies to all elements with class of "project-text"*/
-.project-text {
-    background-color: whitesmoke;
-    position: relative;
-    border-radius: 0 0 25px 25px;
-    font-size: 1.5rem;
-    box-shadow: 0 0 4px 2px #ce676a;
-    margin: auto;
-    width: 100%;
 }
 
 /* class and tag selector - applies to all elements with the anchor (<a>) tag within the element with class of "project-link"*/
@@ -331,4 +329,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
 }
