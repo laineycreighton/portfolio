@@ -336,7 +336,7 @@ h5 {
     height: auto;
     display: flex;
     justify-content: center;
-    border: #ce676a solid 5px;
+    margin: 3rem auto;
 }
 
 .icon {
@@ -532,7 +532,7 @@ footer {
 
     .info p {
         margin: 1rem;
-            }
+    }
 
     .screenshot {
         display: flex;
@@ -544,7 +544,7 @@ footer {
 
     .screenshot img {
         margin: 3rem auto;
-            }
+    }
 
     /*--------------------PROJECT CARDS--------------------*/
     .project-cards {
@@ -686,7 +686,7 @@ footer {
 
     .info p {
         margin: 2rem auto;
-            }
+    }
 
     .screenshot {
         display: flex;
@@ -698,7 +698,7 @@ footer {
 
     .screenshot img {
         margin: 3rem auto;
-            }
+    }
 
     /*--------------------PROJECT CARDS--------------------*/
     .project-cards {
@@ -782,7 +782,7 @@ footer {
     }
 
     .info p {
-margin: 2rem auto;
+        margin: 2rem auto;
     }
 
     .screenshot {
@@ -794,6 +794,6 @@ margin: 2rem auto;
     }
 
     .screenshot img {
-margin: 3rem auto;
+        margin: 3rem auto;
     }
 }
