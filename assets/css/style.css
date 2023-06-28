@@ -16,7 +16,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
     color: #ce676a;
 }
 
@@ -97,7 +98,7 @@ nav ul li {
 }
 
 .profile img {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -167,10 +168,93 @@ h5 {
     justify-content: space-around;
 }
 
+/*--------------------------HIGHLIGHT PROJECT--------------------------*/
+
+.highlight {
+    box-shadow: 4px 8px 8px 2px #ce676a;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+/*--------------------CARD ONLY--------------------*/
+
+.card {
+    width: 25%;
+    border-radius: 2.5rem 0 0 2.5rem;
+    box-shadow: 4px 8px 8px 2px #ce676a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h4 {
+    font-size: 5rem;
+}
+
+.card img {
+    box-shadow: 10px 10px 30px 3px #ce676a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    width: 20rem;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+}
+
+/*--------------------INFO ONLY--------------------*/
+
+.info {
+    background-color: whitesmoke;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info h5 {
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+/*--------------------SCREENSHOT ONLY--------------------*/
+.screenshot {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    border-radius: 0 2.5rem 2.5rem 0;
+}
+
+.screenshot h5 {
+    position: relative;
+    margin-right: 8rem;
+    font-size: 3rem;
+}
+
+.screenshot img {
+    height: 55rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: 8rem;
+}
+
+/*--------------------------OTHER PROJECTS--------------------------*/
 /*--------------------CARD ONLY--------------------*/
 .study-guide-card,
 .salmon-card,
-.refactor-card {
+.filler-card {
     box-shadow: 4px 8px 8px 2px #ce676a;
     border-radius: 2.5rem;
     line-height: 1.5;
@@ -217,6 +301,10 @@ h5 {
     justify-content: space-around;
 }
 
+.project-link ul {
+    display: flex;
+}
+
 .project-link li {
     outline: #ce676a solid 2px;
     border-radius: .3rem;
@@ -226,7 +314,7 @@ h5 {
 /*--------------------INFO ONLY--------------------*/
 .study-guide-info,
 .salmon-info,
-.refactor-info {
+.filler-info {
     background-color: whitesmoke;
     color: black;
     box-shadow: 4px 8px 8px 2px #ce676a;
@@ -241,14 +329,14 @@ h5 {
 /*--------------------INFO TEXT--------------------*/
 .study-guide-info p,
 .salmon-info p,
-.refactor-info p {
+.filler-info p {
     margin: 1rem;
 }
 
 /*--------------------INFO IMAGES--------------------*/
 .study-guide-info img,
 .salmon-info img,
-.refactor-info img {
+.filler-info img {
     width: 750px;
     height: auto;
     display: flex;
@@ -270,13 +358,13 @@ h5 {
 /*--------------------PROJECTS HIDDEN SECTION--------------------*/
 .study-guide-card .study-guide-info,
 .salmon-card .salmon-info,
-.refactor-card .refactor-info {
+.filler-card .filler-info {
     display: none;
 }
 
 .study-guide-card:hover .study-guide-info,
 .salmon-card:hover .salmon-info,
-.refactor-card:hover .refactor-info {
+.filler-card:hover .filler-info {
     display: block;
     background-color: whitesmoke;
 }
@@ -352,10 +440,6 @@ footer {
 
 /*----------------------------------------MEDIA CARDS----------------------------------------*/
 
-@media screen and (max-width:992px) {
-    
-}
+@media screen and (max-width:992px) {}
 
-@media screen and (max-width:768px) {
-    
-}
+@media screen and (max-width:768px) {}
