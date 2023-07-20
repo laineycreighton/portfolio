@@ -10,8 +10,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7 {
+h6 {
     color: #ce676a;
 }
 
@@ -318,6 +317,8 @@ h5 {
     max-width: 100%;
     flex: center;
     font-size: 1.5rem;
+    display: flex;
+    align-items: flex-end;
     text-align: center;
 }
 
