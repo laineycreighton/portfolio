@@ -78,12 +78,12 @@ header p {
 
 .about-title h2 {
     color: var(--light);
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
 }
 
 .about-title h3 {
-    font-size: 80px;
+    font-size: 60px;
     -webkit-text-stroke: 2px var(--light);
     -webkit-text-fill-color: var(--dark);
     transform: skew(30deg);
@@ -126,12 +126,12 @@ header p {
 
 .projects-title h2 {
     color: var(--dark);
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
 }
 
 .projects-title h3 {
-    font-size: 80px;
+    font-size: 60px;
     -webkit-text-stroke: 2px var(--dark);
     -webkit-text-fill-color: var(--light);
     transform: skew(30deg);
@@ -141,7 +141,7 @@ header p {
 /*---------------TOP PROJECT---------------*/
 .top-project {
     width: 100%;
-    height: 30%;
+    height: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ header p {
 .top-card {
     width: 92%;
     height: 100%;
-    background-color: var(--accent);
+    background-color: var(--dark);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,20 +161,21 @@ header p {
 
 h4 {
     text-align: center;
-    color: var(--dark);
+    color: var(--accent);
     font-size: 35px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .top-card img {
-    height: 100%;
+    height: 70%;
 }
 
 .top-card p {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--accent);
 }
 
 /*--------------PROJECT CARDS--------------*/
@@ -192,7 +193,7 @@ h4 {
 .project-cards section {
     height: 100%;
     width: 30%;
-    background-color: var(--dark);
+    background-color: var(--accent);
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
@@ -206,7 +207,7 @@ h5 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: var(--accent);
+    color: var(--dark);
 }
 
 .project-cards img {
@@ -215,13 +216,39 @@ h5 {
 
 /*----------------------------------------CONTACT----------------------------------------*/
 
-.contact header {
-    padding: 5rem
+#contact {
+    background-color: var(--dark);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact-title h2 {
+    color: var(--light);
+    font-size: 60px;
+    margin: 0;
+}
+
+.contact-title h3 {
+    font-size: 60px;
+    -webkit-text-stroke: 2px var(--light);
+    -webkit-text-fill-color: var(--dark);
+    transform: skew(30deg);
+    margin: 0;
 }
 
 /*--------------------CONTACT LINK COLORS--------------------*/
 
-.contact-links a:link {
+/* .contact-links a:link {
     color: #ce676a;
     text-decoration: none;
 }
@@ -243,28 +270,26 @@ h5 {
     background-color: #ce676a;
     color: black;
     text-decoration: none;
-}
+} */
 
 /*--------------------CONTACT LINKS--------------------*/
 .contact-links {
-    font-size: 2.5rem;
     list-style-type: none;
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.contact ul li {
+/* .contact ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}  */
 
 /*--------------------CONTACT ICONS--------------------*/
-.contact ul li img {
+/* .contact ul li img {
     margin-right: 2rem;
-}
+} */
 
 .linkedin,
 .github,
@@ -272,7 +297,7 @@ h5 {
 .phone {
     width: auto;
     height: 5rem;
-}
+} 
 
 /*----------------------------------------FOOTER----------------------------------------*/
 footer {
