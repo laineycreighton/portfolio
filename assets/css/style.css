@@ -305,7 +305,9 @@ h5 {
 
 /*----------------------------------------FOOTER----------------------------------------*/
 footer {
-    font-size: 3rem;
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
