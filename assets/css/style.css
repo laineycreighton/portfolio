@@ -152,16 +152,17 @@ header p {
 .top-card {
     width: 92%;
     height: 100%;
-    background-color: var(--dark);
+    background-color: var(--accent);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border: var(--dark) solid 2px;
 }
 
 h4 {
     text-align: center;
-    color: var(--accent);
+    color: var(--dark);
     font-size: 35px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -169,13 +170,14 @@ h4 {
 
 .top-card img {
     height: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .top-card p {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    color: var(--accent);
 }
 
 /*--------------PROJECT CARDS--------------*/
@@ -193,7 +195,7 @@ h4 {
 .project-cards section {
     height: 100%;
     width: 30%;
-    background-color: var(--accent);
+    background-color: var(--dark);
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
@@ -207,7 +209,7 @@ h5 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: var(--dark);
+    color: var(--accent);
 }
 
 .project-cards img {
@@ -248,56 +250,58 @@ h5 {
 
 /*--------------------CONTACT LINK COLORS--------------------*/
 
-/* .contact-links a:link {
-    color: #ce676a;
+.contact-links a:link {
+    color: var(--light);
     text-decoration: none;
 }
 
 .contact-links a:visited {
-    color: #ce676a;
+    color: var(--accent);
     text-decoration: none;
 }
 
 .contact-links a:hover {
-    background-color: #ce676a;
-    color: #feeae9;
+    background-color: var(--light);
+    color: var(--dark);
     text-decoration: none;
     border-radius: .3rem;
-    width: auto;
+    padding: 5px;
 }
 
 .contact-links a:active {
-    background-color: #ce676a;
+    color: var(--accent);
     color: black;
     text-decoration: none;
-} */
+}
 
 /*--------------------CONTACT LINKS--------------------*/
 .contact-links {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 30%;
+    height: 50%;
 }
 
-/* .contact ul li {
+.contact-links li {
     display: flex;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-}  */
+    width: 100%;
+    font-size: 25px;
+}
 
 /*--------------------CONTACT ICONS--------------------*/
-/* .contact ul li img {
-    margin-right: 2rem;
-} */
-
 .linkedin,
 .github,
 .email,
 .phone {
-    width: auto;
-    height: 5rem;
-} 
+    width: 50px;
+    height: auto;
+    margin-right: 10%;
+}
 
 /*----------------------------------------FOOTER----------------------------------------*/
 footer {
