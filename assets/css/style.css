@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*---------------NAV---------------*/
 .menu {
     background-color: var(--dark);
@@ -178,6 +182,7 @@ h4 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    color: black;
 }
 
 /*--------------PROJECT CARDS--------------*/

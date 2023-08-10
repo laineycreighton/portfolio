@@ -76,6 +76,7 @@ h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: var(--dark);
 }
 
 /*---------------DEMO---------------*/
@@ -89,7 +90,7 @@ h1 {
 
 .demo img {
     width: 90%;
-    border: #ce676a solid 3px;
+    border: var(--dark) solid 3px;
 }
 
 /*---------------LINKS---------------*/
@@ -111,8 +112,8 @@ h1 {
 }
 
 .links ul li {
-    outline: #c18c5d solid 2px;
-    background-color: #c18c5d84;
+    outline: var(--dark) solid 2px;
+    background-color: #ce676a89;
     list-style: none;
     font-size: 20px;
     padding: 5px;
