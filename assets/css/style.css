@@ -164,6 +164,14 @@ header p {
     border: var(--dark) solid 2px;
 }
 
+.top-card article {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h4 {
     text-align: center;
     color: var(--dark);
@@ -172,17 +180,24 @@ h4 {
     margin-bottom: 5px;
 }
 
-.top-card img {
-    height: 70%;
-    margin-left: 10px;
-    margin-right: 10px;
+.top-project-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+
+}
+
+.top-project-demo img {
+    width: 65%;
+    height: auto;
 }
 
 .top-card p {
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
     color: black;
+    width: 80%;
 }
 
 /*--------------PROJECT CARDS--------------*/
@@ -219,6 +234,26 @@ h5 {
 
 .project-cards img {
     height: 80%;
+}
+
+/*--------------PROJECT 1--------------*/
+
+.project-1 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-1 {
+    width: 90%
+}
+
+.img-1 img {
+    width: 100%;
+    height: auto;
 }
 
 /*----------------------------------------CONTACT----------------------------------------*/
