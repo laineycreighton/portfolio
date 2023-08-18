@@ -33,7 +33,7 @@ Website URL: * [Lainey Creighton Portfolio](https://laineycreighton.github.io/po
 
 Navigating to the website URL should present you with the following:
 
-![alt text](./assets/images/portfolio-screenshot.png)
+![alt text](./assets/images/portfolio-page.jpg)
   
   <br>
 
